@@ -1,0 +1,19 @@
+单片机：STM32F407ZET6开发板
+通信模块：ESP8266 WIFI通信模块
+显示模块：0.96寸I2C OLED
+
+IO口连接说明：
+OLED:
+         GND  电源地
+         VCC  接5V或3.3v电源
+         D0    接PD6（SCL）
+         D1    接PD7（SDA）
+         RES   接PD4
+         DC    接PD5
+         CS     接PD3   
+ESP8266:
+         RX-PB10
+         TX-PB11
+串口打印：
+         RX-PA9
+         TX-PA10	
